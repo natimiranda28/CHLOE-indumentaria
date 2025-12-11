@@ -1,39 +1,88 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CHLOE - Indumentaria y Marroquinería</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
 
-    
-  </head>
+<body>
 
-  <body>
-
-    
-    <header class="py-4 text-center">
-      <h1>CHLOE indumentaria y marroquinería</h1>
+    <header>
+        <h1>CHLOE</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Moda</a></li>
+                <li><a href="#">Ropa</a></li>
+                <li><a href="#">Bolsos</a></li>
+            
+            </ul>
+        </nav>
+        <a href="#contacto" class="btn-contacto">Contacto</a>
     </header>
 
-    <main class="container my-5">
-      
-      <p>Bienvenida a la tienda.</p>
-    </main>
+    <section class="hero">
+        <h2>Estilo Supremo</h2>
+        <p>La moda que define tu esencia y marca tu presencia.</p>
+        <button>Ver Colección</button>
+    </section>
 
-    
-    <footer class="bg-light text-center py-3 mt-5">
-      <p class="text-center mb-0">
-        &copy; 2025 Powered by 
+    <section class="productos">
+        <h2>Novedades Exclusivas</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="img/producto1.jpg" alt="Chaqueta de Cuero 'Furia'">
+                <h3>Chaqueta de Cuero 'Furia'</h3>
+                <p class="precio">199.99€</p>
+                <p>Diseño audaz para la mujer moderna. Confección premium.</p>
+            </div>
+            <div class="card">
+                <img src="img/producto2.jpg" alt="Bolso 'Nébula'">
+                <h3>Bolso 'Nébula'</h3>
+                <p class="precio">120.00€</p>
+                <p>Elegancia celestial en un accesorio versátil. Piel genuina.</p>
+            </div>
+            <div class="card">
+                <img src="img/producto3.jpg" alt="Botas 'Volcán'">
+                <h3>Botas 'Volcán'</h3>
+                <p class="precio">150.00€</p>
+                <p>Atrévete a conquistar con estas carteras de caña alta. Comodidad y audacia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="social">
+        <h2>¿Me sigues?</h2>
+        <div class="icons">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">TikTok</a>
+           
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="bg-light text-center py-3">
+    <p class="text-center">&copy; 2025 Powered by 
         <a href="https://main--marianataliamiranda.netlify.app" target="_blank" rel="noopener">
             Natalia Miranda
         </a> 
         - All rights reserved.
-      </p>
-    </footer>
+    </p>
+</footer>
 
-    
-  <script src="https://cdn.tailwindcss.com"></script>
+</body>
 
-
-  </body>
 </html>
