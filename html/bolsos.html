@@ -1,155 +1,47 @@
-<!DOCTYPE html> <html lang="es"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Bolsos - CHLOE</title> <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> <style> * { margin: 0; padding: 0; box-sizing: border-box; }
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHLOE</title>
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #fdfaf6;
-  color: #333;
-}
-
-header {
-  background-color: white;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-header h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2rem;
-  color: #c59d5f;
-}
-
-.intro {
-  text-align: center;
-  padding: 40px 20px;
-  animation: fadeIn 1.5s ease-in;
-}
-
-.intro h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.intro p {
-  font-size: 1.1rem;
-  color: #666;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  padding: 40px;
-}
-
-.card {
-  background-color: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.card-content {
-  padding: 20px;
-  text-align: center;
-}
-
-.card-content h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  color: #c59d5f;
-}
-
-.card-content .precio {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.card-content p {
-  font-size: 0.95rem;
-  color: #555;
-}
-
-footer {
-  background-color: #eee;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9rem;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-</style> 
+  <!-- CSS global -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/catalogo.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>CHLOE - Bolsos</h1>
-    
+  <!-- HEADER UNIFICADO -->
+  <header class="header">
+    <h1><a href="../index.html">CHLOE</a></h1>
+
+    <nav>
+      <ul>
+        <li><a href="ropa.html">Ropa</a></li>
+        <li><a href="moda.html">Moda</a></li>
+        <li><a href="bolsos.html">Bolsos</a></li>
+      </ul>
+    </nav>
+
+    <a href="../index.html#contacto" class="btn-contacto">Contacto</a>
   </header>
 
-  <section class="intro">
-    <h2>Descubrí tu estilo</h2>
-    <p>Bolsos que combinan elegancia, funcionalidad y diseño único.</p>
-  </section>
+  <!-- CONTENIDO ESPECÍFICO -->
+  <main>
+    <!-- ACA VA LO ÚNICO QUE CAMBIA -->
+  </main>
 
-  <section class="grid">
-
-    <div class="card">
-      <img src="../img/carteras/adolfina_bordo.jpeg" alt="Cartera Adolfina Bordo">
-      <div class="card-content">
-        <h3>Cartera 'Adolfina Bordo'</h3>
-        <p class="precio">CONTADO: $76500</p>
-        <p class="precio">TARJETA 3 CUOTAS SIN INTERES: $76500</p>
-        <p>Estilo moderno y práctico para el día a día.</p>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="../img/carteras/rafia crema.jpeg" alt="Cartera Rafia crema">
-      <div class="card-content">
-        <h3>Cartera 'Rafia crema'</h3>
-        <p class="precio">CONTADO: $76500</p>
-        <p class="precio">TARJETA 3 CUOTAS SIN INTERES: $85800</p>
-        <p></p>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="../img/carteras/rafia_beige.jpeg" alt="Cartera Rafia beige">
-      <div class="card-content">
-        <h3>Cartera 'Rafia beige'</h3>
-        <p class="precio">CONTADO: $76500</p>
-        <p class="precio">TARJETA 3 CUOTAS SIN INTERES: $85800</p>
-        <p></p>
-      </div>
-    </div>
-
-  </section>
-
- <footer class="bg-light text-center py-3">
-    <p class="text-center">&copy; 2025 Powered by 
-        <a href="https://main--marianataliamiranda.netlify.app" target="_blank" rel="noopener">
-            Natalia Miranda
-        </a> 
-        - All rights reserved.
-    </p>
+ <footer>
+  <p>&copy; 2025 Powered by 
+    <a href="https://main--marianataliamiranda.netlify.app" target="_blank" rel="noopener">
+      Natalia Miranda
+    </a> 
+    - All rights reserved.
+  </p>
 </footer>
+
 
 </body>
 </html>
+
