@@ -2,89 +2,103 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHLOE - Indumentaria y Marroquinería</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHLOE - Indumentaria y Marroquinería</title>
+  
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- Librería de íconos -->
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+
+  <!-- Animaciones AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <h1>CHLOE</h1>
-        <nav>
-            <ul>
-                <li><a href="../html/ropa.html">Ropa</a></li>
-                <li><a href="../html/moda.html">Moda</a></li>
-                <li><a href="../html/bolsos.html">Bolsos</a></li>
+  <!-- Header -->
+  <header>
+    <h1>CHLOE</h1>
+    <nav>
+      <ul>
+        <li><a href="../html/ropa.html">Ropa</a></li>
+        <li><a href="../html/moda.html">Moda</a></li>
+        <li><a href="../html/bolsos.html">Bolsos</a></li>
+      </ul>
+    </nav>
+    <a href="#contacto" class="btn-contacto">Contacto</a>
+  </header>
 
-            
-            </ul>
-        </nav>
-        <a href="#contacto" class="btn-contacto">Contacto</a>
-    </header>
+  <!-- Hero -->
+  <section class="hero" data-aos="fade-up">
+    <h2>Estilo Supremo</h2>
+    <p>La moda que define tu esencia y marca tu presencia.</p>
+    <button>Ver Colección</button>
+  </section>
 
-    <section class="hero">
-        <h2>Estilo Supremo</h2>
-        <p>La moda que define tu esencia y marca tu presencia.</p>
-        <!-- <button>Ver Colección</button> -->
-    </section>
+  <!-- Productos -->
+  <section class="productos" data-aos="fade-up">
+    <h2>Novedades Exclusivas</h2>
+    <div class="grid">
+      <div class="card" data-aos="zoom-in">
+        <img src="img/principal/1.jpg" alt="Vestido 'Elegancia Eterna'">
+        <h3>Vestido 'Elegancia Eterna'</h3>
+        <p>Diseño audaz para la mujer moderna. Confección premium.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="100">
+        <img src="img/principal/2.jpg" alt="Vestido 'Mar Azul'">
+        <h3>Vestido 'Mar Azul'</h3>
+        <p>Elegancia celestial en una bella prenda de verano.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="img/principal/3.jpg" alt="Blusa 'Oliva'">
+        <h3>Blusa 'Oliva'</h3>
+        <p>Blusa de silueta delicada con volados frontales que realzan el diseño y aportan movimiento.</p>
+      </div>
+    </div>
+  </section>
 
-<!--     <section class="productos">
-        <h2>Novedades Exclusivas</h2>
-        <div class="grid">
-            <div class="card">
-                <img src="img/producto1.jpg" alt="Chaqueta de Cuero 'Furia'">
-                <h3>Chaqueta de Cuero 'Furia'</h3>
-                <p class="precio">199.99€</p>
-                <p>Diseño audaz para la mujer moderna. Confección premium.</p>
-            </div>
-            <div class="card">
-                <img src="img/producto2.jpg" alt="Bolso 'Nébula'">
-                <h3>Bolso 'Nébula'</h3>
-                <p class="precio">120.00€</p>
-                <p>Elegancia celestial en un accesorio versátil. Piel genuina.</p>
-            </div>
-            <div class="card">
-                <img src="img/producto3.jpg" alt="Botas 'Volcán'">
-                <h3>Botas 'Volcán'</h3>
-                <p class="precio">150.00€</p>
-                <p>Atrévete a conquistar con estas carteras de caña alta. Comodidad y audacia.</p>
-            </div>
-        </div>
-    </section> -->
+  <!-- Redes sociales -->
+  <section class="social" data-aos="fade-up">
+    <h2>¿Nos seguís?</h2>
+    <div class="icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/chloedress_/"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </section>
 
-    <section class="social">
-        <h2>¿Me sigues?</h2>
-        <div class="icons">
-            <a href="#">Facebook</a>
-            <a href="https://www.instagram.com/chloedress_/">Instagram</a>
-            <a href="#">TikTok</a>
-           
-        </div>
-    </section>
+  <!-- Contacto -->
+  <section id="contacto" class="contacto" data-aos="fade-up">
+    <h2>Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo" required>
+      <textarea placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
 
-    <section id="contacto" class="contacto">
-        <h2>Contáctanos</h2>
-        <form>
-            <input type="text" placeholder="Nombre" required>
-            <input type="email" placeholder="Correo" required>
-            <textarea placeholder="Mensaje" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Powered by 
+      <a href="https://main--marianataliamiranda.netlify.app" target="_blank" rel="noopener">
+        Natalia Miranda
+      </a> 
+      - All rights reserved.
+    </p>
+  </footer>
 
-<footer>
-  <p>&copy; 2025 Powered by 
-    <a href="https://main--marianataliamiranda.netlify.app" target="_blank" rel="noopener">
-      Natalia Miranda
-    </a> 
-    - All rights reserved.
-  </p>
-</footer>
-
-
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
