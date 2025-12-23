@@ -1,11 +1,10 @@
-// --- Animaciones de scroll con AOS ---
-// Ya lo inicializamos en el HTML, pero aquí podrías personalizarlo si quieres:
+
 AOS.init({
   duration: 1000, // duración de la animación en ms
   once: true      // que se ejecute solo una vez
 });
 
-// --- Botón "Ver Colección" que hace scroll suave a productos ---
+// --- Botón "Ver Colección" ---
 document.querySelector(".hero button").addEventListener("click", () => {
   document.querySelector(".productos").scrollIntoView({ behavior: "smooth" });
 });
