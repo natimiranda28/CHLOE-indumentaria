@@ -8,7 +8,7 @@
 }
 
 :root {
-    --dorado: #c5a059; /* Un dorado elegante, no muy brillante */
+    --dorado: #c5a059; 
     --negro: #1a1a1a;
     --blanco: #ffffff;
     --gris-claro: #f9f9f9;
@@ -67,7 +67,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: var(--gris-claro); /* Puedes cambiar esto por una imagen de fondo */
+    background: var(--gris-claro); 
     animation: fadeIn 1.5s ease-out;
 }
 
