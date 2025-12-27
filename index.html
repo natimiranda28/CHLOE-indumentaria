@@ -1,79 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHLOE Indumentaria | Tienda de Moda</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CHLOE | Tienda de Moda</title>
+
+  <!-- Tu CSS -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- Tipografía -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
 
-    <header>
-        <nav class="navbar">
-            <div class="logo">CHLOE<span>Indumentaria</span></div>
-            <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="../prueba/html/ropa.html">Ropa</a></li>
-                <li><a href="../prueba/html/accesorios.html">Accesorios</a></li>
-                <li><a href="../prueba/html/bolsos.html">Bolsos</a></li>
-                <li><a href="../prueba/html/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav class="navbar">
+      <div class="logo">CHLOE<span>Indumentaria</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="../html/ropa.html">Ropa</a></li>
+        <li><a href="../html/accesorios.html">Accesorios</a></li>
+        <li><a href="../html/bolsos.html">Bolsos</a></li>
+        <li><a href="../html/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Nueva Colección 2026</h1>
-            <p>Descubre tu estilo único con nuestras piezas exclusivas.</p>
-            <a href="#ropa" class="cta">Ver Catálogo</a>
-        </div>
-    </section>
 
-    <section id="ropa" class="products-section">
-        <h2>Nuestra Ropa</h2>
-        <div class="product-grid">
-            
-            <div class="product-card">
-                <img src="../img/principal/vestido_rosa.jpeg" alt="Vestido Rosa ">
-                <h3>Vestido Rosa</h3>
-                <span class="price-cash">Contado/Transf: $52.200</span>
-                <span class="price-card">Precio tarjetas: $60.000</span>
-                
-            </div>
+  <section class="hero-carousel">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Reemplaza las rutas por tus imágenes reales -->
+        <div class="swiper-slide" style="background-image: url('../img/principal/coleccion1.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('../img/principal/coleccion2.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('../img/principal/coleccion3.jpg');"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+ 
+     <!--  <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>  -->
+    </div>
 
-            <div class="product-card">
-                <img src="img/ropa/chaqueta-denim.jpg" alt="Chaqueta Denim">
-                <h3>Chaqueta Denim</h3>
-                <span class="price-cash">Contado/Transf: $58.000</span>
-                <span class="price-card">Precio tarjetas: $66.000</span>
-                <button class="btn-ver">Ver detalles</button>
-            </div>
+    <div class="hero-content">
+      <h1>Nueva Colección 2026</h1>
+      <p>Descubre tu estilo único con nuestras piezas exclusivas.</p>
+      <a href="../html/ropa.html" class="cta">Ver Catálogo</a>
+    </div>
+  </section>
 
-        </div>
-    </section>
+  <section id="ropa" class="products-section">
+    <h2>Nuestra Ropa</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="../img/principal/1.jpeg" alt="Remera crochet con pantalón oxford"/>
+        <h3>Remera crochet (talle único)</h3>
+        <span class="price-cash">Efectivo/Transferencia: $58.700</span>
+        <span class="price-card">Tarjeta: $66.100</span>
 
-    <section id="accesorios" class="products-section" style="background-color: #f9f9f9;">
-        <h2>Accesorios</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="img/accesorios/reloj.jpg" alt="Reloj Minimalista">
-                <h3>Reloj Minimalista</h3>
-                <span class="price-cash">Contado/Transf: $85.000</span>
-                <span class="price-card">Precio tarjetas: $98.000</span>
-                <button class="btn-ver">Ver detalles</button>
-            </div>
-        </div>
-    </section>
+        <h3>Jean Oxford (talles 36 al 40)</h3>
+        <span class="price-cash">Efectivo/Transferencia: $66.800</span>
+        <span class="price-card">Tarjeta: $73.600</span>
 
-    <footer>
-        <p>&copy; 2025 Powered by 
-            <a href="https://main--marianataliamiranda.netlify.app" target="_blank" rel="noopener">
-                Natalia Miranda
-            </a> 
-            - All rights reserved.
-        </p>
-    </footer>
+        <h3>Cinto (3 colores: negro, bordo y camel)</h3>
+        <span class="price-cash">Efectivo/Transferencia: $30.800</span>
+        <span class="price-card">Tarjeta: $35.600</span>
+      </div>
 
+      <div class="product-card">
+        <img src="img/ropa/chaqueta-denim.jpg" alt="Chaqueta Denim"/>
+        <h3>Chaqueta Denim</h3>
+        <span class="price-cash">Contado/Transf: $58.000</span>
+        <span class="price-card">Precio tarjetas: $66.000</span>
+        <button class="btn-ver">Ver detalles</button>
+      </div>
+    </div>
+  </section>
+
+  <!--
+  <section id="accesorios" class="products-section" style="background-color: #f9f9f9;">
+    <h2>Accesorios</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="../img/otros/brazalete_cleopatra_dorado.jpeg" alt="Brazalete Cleopatra dorado"/>
+        <h3>Reloj Minimalista</h3>
+        <span class="price-cash">Contado/Transf: $85.000</span>
+        <span class="price-card">Precio tarjetas: $98.000</span>
+        <button class="btn-ver">Ver detalles</button>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <footer>
+    <p>&copy; 2025 Powered by 
+      <a href="https://main--marianataliamiranda.netlify.app" target="_blank" rel="noopener">
+        Natalia Miranda
+      </a> 
+      - All rights reserved.
+    </p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      // Si activás las flechas, descomenta las líneas y los elementos HTML:
+      // navigation: {
+      //   nextEl: '.swiper-button-next',
+      //   prevEl: '.swiper-button-prev',
+      // },
+    });
+  </script>
 </body>
 </html>
